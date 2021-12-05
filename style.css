@@ -1,0 +1,99 @@
+/* limpar tudo*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+#cabeçalho{
+
+	background: orange;
+	padding: 25px;
+	text-align: center;
+	font-size: 22px;
+	color: grey;
+}
+
+.titulo{
+	margin: 10px auto;
+}
+.branco{
+	color: white;
+}
+
+#menu{
+	background: orange;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 18px;
+
+
+}
+
+a{
+	text-decoration: none;
+
+}
+#menu a:link, #menu a:visited{
+	color: white;
+
+}
+
+#menu a:hover{
+	color: orange;
+	background: white;
+}
+#corpo {
+	padding: 5px;
+	
+	margin: 20 auto;
+	width: 700px;
+	float: left;
+
+}
+/* titulos das imagens*/
+.headpublica{
+	margin-left: 30px;	
+	background: white;
+}
+
+#menulateral{
+	width: 240px;
+
+	float: right;
+	background: white;
+	padding: 10px;
+	margin-right: 150px;
+	margin-top: 15px;
+}
+
+img{
+	margin: 20px
+}
+
+hr{
+	color:grey;
+}
+
+#rodape{
+	text-align: center;
+	padding: 10px;
+	clear: both;
+	background: grey;
+	width: 1080px;
+	margin: 0 40px;
+}
+
+p{
+	margin-left: 10px;
+}
+
+.conteudolat{
+	margin-bottom: 10px;
+}
+
